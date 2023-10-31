@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "firstName": "Mahfooz",
+      "lastName": "saifi",
+      "email": "mahfoozsaifi3@gmail.com",
+      "age": "24",
+      "phone": "9756933498",
+      "address": "moradadabad (up)",
+      "id": 1
+    },
+    {
+      "firstName": "Taimooriii",
+      "lastName": "saifi",
+      "email": "taimoor@123.example.com5",
+      "age": 54,
+      "phone": "xxx121xxxx",
+      "address": "moradadabad",
+      "id": 2
+    },
+    {
+      "firstName": "Toheed ",
+      "lastName": "saifi",
+      "email": "toheed@gmail.com",
+      "age": 4,
+      "phone": "0001230000",
+      "address": "moradabad",
+      "id": 3
+    },
+    {
+      "firstName": "Mehboob",
+      "lastName": "Ahamed",
+      "email": "mehboob@gmail.com",
+      "age": 30,
+      "phone": "9837490541",
+      "address": "moradabad",
+      "id": 4
+    },
+    {
+      "firstName": "Matloob",
+      "lastName": "Ahmad",
+      "email": "matloob@gmail.com",
+      "age": 26,
+      "phone": "7417799956",
+      "address": "moradabad",
+      "id": 5
+    },
+    {
+      "firstName": "Suhail",
+      "lastName": "saifi",
+      "email": "suhail@gmqail.com",
+      "age": 24,
+      "phone": "9898778788",
+      "address": "Noida",
+      "id": 6
+    }
+  ]
+}

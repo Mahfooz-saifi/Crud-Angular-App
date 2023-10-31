@@ -1,0 +1,42 @@
+
+<p class="user-list">List of Users</p>
+<div class="container card">
+    <div class="table-responsive">
+        <div class="d-flex justify-content-end mt-2">
+
+            <button routerLink="/add-user/0" class="btn btn-primary">Add User</button>
+        </div>
+        <table class="table table-striped table-hover">
+            <thead class="bg-secondary">
+                <tr>
+                  <!-- <th scope="col">Id</th> -->
+                  <th scope="col">First Name</th>
+                  <th scope="col">Last Name</th>
+                  <th scope="col">Age</th>
+                  <th scope="col">Email Address</th>
+                  <th scope="col">Phone</th>
+                  <th scope="col">Address</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of UserList">
+                  <!-- <th scope="row">1</th> -->
+                  <!-- <td>{{item.id}}</td> -->
+                  <td>{{item.firstName}}</td>
+                  <td>{{item.lastName}}</td>
+                  <td>{{item.age}}</td>
+                  <td>{{item.email}}</td>
+                  <td>{{item.phone}}</td>
+                  <td>{{item.address}}</td>
+               <td>
+                 <a [routerLink]="['/add-user',item.id]"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                 <!-- <button routerLink="/add-user" (click)="updateUser(item.id)"> Edit</button> -->
+                <i style="cursor: pointer;" class="fa fa-trash text-danger mx-3" aria-hidden="true" (click)="deleteUser(item.id)"></i>
+                </td>
+                </tr>
+               
+              </tbody>
+        </table>
+      </div>
+</div>
